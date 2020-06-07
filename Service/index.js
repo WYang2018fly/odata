@@ -1,14 +1,8 @@
-const Koa = require('koa')
-const Router = require('koa-router')
-const app = new Koa()
-const router = new Router()
+const odata = require('node-odata');
+const server = odata('mongodb://localhost/test');
 
-router.get('/test',ctx=>{
-  ctx.response.body = 'hello world';
-});
+server.resource('books', { title: String, price: Number });
 
-app.use(router.routes()).use(router.allowedMethods());
-
-app.listen(3000,()=>{
-  console.log('listen on port 3000');
+server.listen(3000,()=>{
+  console.log('listen on port 3000')
 });

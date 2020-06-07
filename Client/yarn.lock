@@ -27,8 +27,8 @@ node-fetch@2.6.0:
 
 odata@^1.0.4:
   version "1.0.4"
-  resolved "https://registry.yarnpkg.com/odata/-/odata-1.0.4.tgz#dbc510601fd333c40496e97082fe1b9d7ba373df"
-  integrity sha512-WTqxBdjINkVOusYEu1PQxjgmpDH/j0v5PxFRYRqWiMt1Jv09V0cFho+MjnHouGgzhL07AHLF9lHM38JJ/oZTdw==
+  resolved "https://registry.npm.taobao.org/odata/download/odata-1.0.4.tgz#dbc510601fd333c40496e97082fe1b9d7ba373df"
+  integrity sha1-28UQYB/TM8QElulwgv4bnXujc98=
   dependencies:
     cross-fetch "^3.0.0"
     tslib "^1.9.3"
