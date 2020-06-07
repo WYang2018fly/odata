@@ -1,0 +1,12 @@
+{
+  "name": "helloworld",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "odata": "^1.0.4"
+  },
+  "scripts": {
+    "start": "node ./src/index"
+  }
+}
